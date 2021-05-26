@@ -46,6 +46,9 @@
         clear: both;
         display: table;
       }
+      .assignee {
+        width: 152px !important;
+      }
     </style>
   </head>
   <body>
@@ -98,7 +101,7 @@
         <th>Due Date</th>
         <th>Priority</th>
         <th>Status</th>
-        <th>Assignee</th>
+        <th class="assignee">Assignee</th>
       </tr>
       <tr>
         <td>198</td>
@@ -109,14 +112,14 @@
         </td>
         <td>12, Apr 2021</td>
         <td>13, Apr 2021</td>
-        <td style="display: table">
-          <div style="display: table-cell; vertical-align: middle">
+        <td style="display: flex; height: 100%">
+          <div>
             <img src="icons/red-arrow.svg" alt="" />
           </div>
           <span style="margin-left: 8px">High</span>
         </td>
         <td><span class="status-start">STARTED</span></td>
-        <td style="display: table">
+        <td style="display: table" class="assignee" class="assignee">
           <div style="display: table-cell; vertical-align: middle">
             <div
               style="
@@ -148,7 +151,7 @@
           /><span>Highest</span>
         </td>
         <td><span class="status-todo">TODO</span></td>
-        <td style="display: table">
+        <td style="display: table" class="assignee" class="assignee">
           <div style="display: table-cell; vertical-align: middle">
             <div
               style="
@@ -180,7 +183,7 @@
           /><span>Medium</span>
         </td>
         <td><span class="status-todo">TODO</span></td>
-        <td style="display: table">
+        <td style="display: table" class="assignee" class="assignee">
           <div style="display: table-cell; vertical-align: middle">
             <div
               style="
@@ -212,7 +215,7 @@
           /><span>Highest</span>
         </td>
         <td><span class="status-start">STARTED</span></td>
-        <td style="display: table">
+        <td style="display: table" class="assignee">
           <div style="display: table-cell; vertical-align: middle">
             <div
               style="
@@ -244,7 +247,7 @@
           /><span>Lowest</span>
         </td>
         <td><span class="status-todo">TODO</span></td>
-        <td style="display: table">
+        <td style="display: table" class="assignee">
           <div style="display: table-cell; vertical-align: middle">
             <div
               style="
@@ -277,7 +280,7 @@
           <span>High</span>
         </td>
         <td><span class="status-start">STARTED</span></td>
-        <td style="display: table">
+        <td style="display: table" class="assignee">
           <div style="display: table-cell; vertical-align: middle">
             <div
               style="
@@ -309,7 +312,7 @@
           /><span>Lowest</span>
         </td>
         <td><span class="status-todo">TODO</span></td>
-        <td style="display: table">
+        <td style="display: table" class="assignee">
           <div style="display: table-cell; vertical-align: middle">
             <div
               style="
@@ -342,7 +345,7 @@
           <span>High</span>
         </td>
         <td><span class="status-start">STARTED</span></td>
-        <td style="display: table">
+        <td style="display: table" class="assignee">
           <div style="display: table-cell; vertical-align: middle">
             <div
               style="
@@ -374,7 +377,7 @@
           /><span>Medium</span>
         </td>
         <td><span class="status-todo">TODO</span></td>
-        <td style="display: table">
+        <td style="display: table" class="assignee">
           <div style="display: table-cell; vertical-align: middle">
             <div
               style="
