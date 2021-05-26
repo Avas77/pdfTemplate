@@ -47,7 +47,13 @@
         display: table;
       }
       .assignee {
-        width: 152px !important;
+        min-width: 152px;
+      }
+      .priority {
+        min-width: 100px;
+      }
+      .date {
+        min-width: 100px;
       }
     </style>
   </head>
@@ -101,7 +107,7 @@
         <th>Due Date</th>
         <th>Priority</th>
         <th>Status</th>
-        <th class="assignee">Assignee</th>
+        <th>Assignee</th>
       </tr>
       <tr>
         <td>198</td>
@@ -110,17 +116,17 @@
           Broken tv, fallen from tv stand Lorem ipsum dolor sit amet
           consectetur.
         </td>
-        <td>12, Apr 2021</td>
-        <td>13, Apr 2021</td>
-        <td style="display: flex; height: 100%">
-          <div>
+        <td class="date">12, Apr 2021</td>
+        <td class="date">13, Apr 2021</td>
+        <td class="priority">
+          <div style="display: flex">
             <img src="icons/red-arrow.svg" alt="" />
+            <span style="margin-left: 8px">High</span>
           </div>
-          <span style="margin-left: 8px">High</span>
         </td>
         <td><span class="status-start">STARTED</span></td>
-        <td style="display: table" class="assignee" class="assignee">
-          <div style="display: table-cell; vertical-align: middle">
+        <td class="assignee">
+          <div style="display: flex">
             <div
               style="
                 display: inline-block;
@@ -133,26 +139,27 @@
             >
               <img style="width: 100%" src="icons/ceo.jpg" alt="" />
             </div>
+            <span>Rinesh Shakya</span>
           </div>
-          <span>Rinesh Shakya</span>
         </td>
       </tr>
       <tr>
         <td>196</td>
         <td>Finanace</td>
         <td>Tv doesn't start stuck in black screen</td>
-        <td>12, Apr 2021</td>
-        <td>-</td>
-        <td style="display: flex; justify-content: space-around">
-          <img
-            src="icons/red-arrow.svg"
-            alt=""
-            style="align-self: center"
-          /><span>Highest</span>
+        <td class="date">12, Apr 2021</td>
+        <td class="date">-</td>
+        <td class="priority">
+          <div style="display: flex">
+            <img src="icons/red-arrow.svg" alt="" /><span
+              style="margin-left: 8px"
+              >Highest</span
+            >
+          </div>
         </td>
         <td><span class="status-todo">TODO</span></td>
-        <td style="display: table" class="assignee" class="assignee">
-          <div style="display: table-cell; vertical-align: middle">
+        <td class="assignee">
+          <div style="display: flex">
             <div
               style="
                 display: inline-block;
@@ -165,26 +172,27 @@
             >
               <img style="width: 100%" src="icons/ceo.jpg" alt="" />
             </div>
+            <span>Rinesh Shakya</span>
           </div>
-          <span>Rinesh Shakya</span>
         </td>
       </tr>
       <tr>
         <td>181</td>
         <td>Marketing</td>
         <td>Need assistance in installation for disho..</td>
-        <td>12, Apr 2021</td>
-        <td>-</td>
-        <td style="display: flex; justify-content: space-around">
-          <img
-            src="icons/orange-arrow1.svg"
-            alt=""
-            style="align-self: center"
-          /><span>Medium</span>
+        <td class="date">12, Apr 2021</td>
+        <td class="date">-</td>
+        <td class="priority">
+          <div style="display: flex">
+            <img src="icons/orange-arrow1.svg" alt="" /><span
+              style="margin-left: 8px"
+              >Medium</span
+            >
+          </div>
         </td>
         <td><span class="status-todo">TODO</span></td>
-        <td style="display: table" class="assignee" class="assignee">
-          <div style="display: table-cell; vertical-align: middle">
+        <td class="assignee">
+          <div style="display: flex">
             <div
               style="
                 display: inline-block;
@@ -197,26 +205,27 @@
             >
               <img style="width: 100%" src="icons/ceo.jpg" alt="" />
             </div>
+            <span>Rinesh Shakya</span>
           </div>
-          <span>Rinesh Shakya</span>
         </td>
       </tr>
       <tr>
         <td>179</td>
         <td>Test</td>
         <td>fgjfjgkfgj</td>
-        <td>12, Apr 2021</td>
-        <td>-</td>
-        <td style="display: flex; justify-content: space-around">
-          <img
-            src="icons/red-arrow.svg"
-            alt=""
-            style="align-self: center"
-          /><span>Highest</span>
+        <td class="date">12, Apr 2021</td>
+        <td class="date">-</td>
+        <td class="priority">
+          <div style="display: flex">
+            <img src="icons/red-arrow.svg" alt="" /><span
+              style="margin-left: 8px"
+              >Highest</span
+            >
+          </div>
         </td>
         <td><span class="status-start">STARTED</span></td>
-        <td style="display: table" class="assignee">
-          <div style="display: table-cell; vertical-align: middle">
+        <td class="assignee">
+          <div style="display: flex">
             <div
               style="
                 display: inline-block;
@@ -229,26 +238,27 @@
             >
               <img style="width: 100%" src="icons/ceo.jpg" alt="" />
             </div>
+            <span>Rinesh Shakya</span>
           </div>
-          <span>Rinesh Shakya</span>
         </td>
       </tr>
       <tr>
         <td>174</td>
         <td>Finance</td>
         <td>GNet slow from morning 9 o'clock</td>
-        <td>12, Apr 2021</td>
-        <td>-</td>
-        <td style="display: flex; justify-content: space-around">
-          <img
-            src="icons/green-arrow.svg"
-            alt=""
-            style="align-self: center"
-          /><span>Lowest</span>
+        <td class="date">12, Apr 2021</td>
+        <td class="date">-</td>
+        <td class="priority">
+          <div style="display: flex">
+            <img src="icons/green-arrow.svg" alt="" /><span
+              style="margin-left: 8px"
+              >Lowest</span
+            >
+          </div>
         </td>
         <td><span class="status-todo">TODO</span></td>
-        <td style="display: table" class="assignee">
-          <div style="display: table-cell; vertical-align: middle">
+        <td class="assignee">
+          <div style="display: flex">
             <div
               style="
                 display: inline-block;
@@ -261,27 +271,25 @@
             >
               <img style="width: 100%" src="icons/ceo.jpg" alt="" />
             </div>
+            <span>Rinesh Shakya</span>
           </div>
-          <span>Rinesh Shakya</span>
         </td>
       </tr>
       <tr>
         <td>198</td>
         <td>Test</td>
         <td>Broken tv, fallen from tv stand</td>
-        <td>12, Apr 2021</td>
-        <td>13, Apr 2021</td>
-        <td style="display: flex; justify-content: space-around">
-          <img
-            src="icons/orange-arrow1.svg"
-            alt=""
-            style="align-self: center"
-          />
-          <span>High</span>
+        <td class="date">12, Apr 2021</td>
+        <td class="date">13, Apr 2021</td>
+        <td class="priority">
+          <div style="display: flex">
+            <img src="icons/orange-arrow1.svg" alt="" />
+            <span style="margin-left: 8px">High</span>
+          </div>
         </td>
         <td><span class="status-start">STARTED</span></td>
-        <td style="display: table" class="assignee">
-          <div style="display: table-cell; vertical-align: middle">
+        <td class="assignee">
+          <div style="display: flex">
             <div
               style="
                 display: inline-block;
@@ -294,26 +302,27 @@
             >
               <img style="width: 100%" src="icons/ceo.jpg" alt="" />
             </div>
+            <span>Rinesh Shakya</span>
           </div>
-          <span>Rinesh Shakya</span>
         </td>
       </tr>
       <tr>
         <td>174</td>
         <td>Finance</td>
         <td>GNet slow from morning 9 o'clock</td>
-        <td>12, Apr 2021</td>
-        <td>-</td>
-        <td style="display: flex; justify-content: space-around">
-          <img
-            src="icons/green-arrow.svg"
-            alt=""
-            style="align-self: center"
-          /><span>Lowest</span>
+        <td class="date">12, Apr 2021</td>
+        <td class="date">-</td>
+        <td class="priority">
+          <div style="display: flex">
+            <img src="icons/green-arrow.svg" alt="" /><span
+              style="margin-left: 8px"
+              >Lowest</span
+            >
+          </div>
         </td>
         <td><span class="status-todo">TODO</span></td>
-        <td style="display: table" class="assignee">
-          <div style="display: table-cell; vertical-align: middle">
+        <td class="assignee">
+          <div style="display: flex">
             <div
               style="
                 display: inline-block;
@@ -326,27 +335,25 @@
             >
               <img style="width: 100%" src="icons/ceo.jpg" alt="" />
             </div>
+            <span>Rinesh Shakya</span>
           </div>
-          <span>Rinesh Shakya</span>
         </td>
       </tr>
       <tr>
         <td>1748</td>
         <td>Marketing</td>
         <td>Broken tv, fallen from tv stand</td>
-        <td>12, Apr 2021</td>
-        <td>13, Apr 2021</td>
-        <td style="display: flex; justify-content: space-around">
-          <img
-            src="icons/orange-arrow1.svg"
-            alt=""
-            style="align-self: center"
-          />
-          <span>High</span>
+        <td class="date">12, Apr 2021</td>
+        <td class="date">13, Apr 2021</td>
+        <td class="priority">
+          <div style="display: flex">
+            <img src="icons/orange-arrow1.svg" alt="" />
+            <span style="margin-left: 8px">High</span>
+          </div>
         </td>
         <td><span class="status-start">STARTED</span></td>
-        <td style="display: table" class="assignee">
-          <div style="display: table-cell; vertical-align: middle">
+        <td class="assignee">
+          <div style="display: flex">
             <div
               style="
                 display: inline-block;
@@ -359,26 +366,27 @@
             >
               <img style="width: 100%" src="icons/ceo.jpg" alt="" />
             </div>
+            <span>Rinesh Shakya</span>
           </div>
-          <span>Rinesh Shakya</span>
         </td>
       </tr>
       <tr>
         <td>181</td>
         <td>Marketing</td>
         <td>Need assistance in installation for disho..</td>
-        <td>12, Apr 2021</td>
-        <td>-</td>
-        <td style="display: flex; justify-content: space-around">
-          <img
-            src="icons/orange-arrow1.svg"
-            alt=""
-            style="align-self: center"
-          /><span>Medium</span>
+        <td class="date">12, Apr 2021</td>
+        <td class="date">-</td>
+        <td class="priority">
+          <div style="display: flex">
+            <img src="icons/orange-arrow1.svg" alt="" /><span
+              style="margin-left: 8px"
+              >Medium</span
+            >
+          </div>
         </td>
         <td><span class="status-todo">TODO</span></td>
-        <td style="display: table" class="assignee">
-          <div style="display: table-cell; vertical-align: middle">
+        <td class="assignee">
+          <div style="display: flex">
             <div
               style="
                 display: inline-block;
@@ -391,8 +399,8 @@
             >
               <img style="width: 100%" src="icons/ceo.jpg" alt="" />
             </div>
+            <span>Rinesh Shakya</span>
           </div>
-          <span>Rinesh Shakya</span>
         </td>
       </tr>
     </table>
